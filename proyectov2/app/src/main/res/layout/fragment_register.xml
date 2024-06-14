@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top"
+    tools:context=".fragments.add.RegisterFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:src="@drawable/icon_register" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nombre"
+            android:textSize="20sp"
+            android:layout_marginTop="18dp"
+            android:background="@drawable/rounded_corner"
+            android:padding="10dp"
+            android:inputType="text"
+            android:id="@+id/name_input"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Apellido"
+            android:textSize="20sp"
+            android:layout_marginTop="18dp"
+            android:background="@drawable/rounded_corner"
+            android:padding="10dp"
+            android:inputType="text"
+            android:id="@+id/lastname_input"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Usuario"
+            android:textSize="20sp"
+            android:layout_marginTop="18dp"
+            android:background="@drawable/rounded_corner"
+            android:padding="10dp"
+            android:inputType="text"
+            android:id="@+id/rusername_input"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Contraseña"
+            android:textSize="20sp"
+            android:layout_marginTop="18dp"
+            android:background="@drawable/rounded_corner"
+            android:padding="10dp"
+            android:inputType="textPassword"
+            android:id="@+id/rpassword_input"/>
+
+        <EditText
+            android:id="@+id/cedula_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:background="@drawable/rounded_corner"
+            android:hint="Cedula"
+            android:inputType="number"
+            android:padding="10dp"
+            android:textSize="20sp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Celular"
+            android:textSize="20sp"
+            android:layout_marginTop="18dp"
+            android:background="@drawable/rounded_corner"
+            android:padding="10dp"
+            android:inputType="number"
+            android:id="@+id/telefono_input"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Correo"
+            android:textSize="20sp"
+            android:layout_marginTop="18dp"
+            android:background="@drawable/rounded_corner"
+            android:padding="10dp"
+            android:inputType="textEmailAddress"
+            android:id="@+id/email_input"/>
+
+        <Button
+            android:id="@+id/register_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:backgroundTint="#1483DA"
+            android:padding="18dp"
+            android:text="Registrar"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>
